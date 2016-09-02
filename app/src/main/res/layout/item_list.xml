@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvsubId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="aaa"/>
+    <TextView
+        android:id="@+id/tvsumId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="bbb"
+        android:layout_below="@id/tvsubId"
+        android:textSize="10sp"/>
+    <ImageView
+        android:id="@+id/imgId"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/tvsubId"
+        android:src="@android:drawable/ic_menu_always_landscape_portrait"/>
+</RelativeLayout>
